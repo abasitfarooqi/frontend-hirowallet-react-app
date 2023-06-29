@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: Montserrat !important;
+    font-weight: 300;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #50b1b5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #239094 !important;
+}
+
+
+
+.navbar-brand img {
+    width: 130px;
+}
+
+
+.navbar-nav .nav-link,
+.navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.logo-one {
+    margin: 0 !important;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: #ffffff;
+    height: 2px;
+    width: 28px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    position: relative;
+    left: 0;
+    opacity: 1;
+    transition: all 0.35s ease-out;
+    transform-origin: center left;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+    border-color: transparent !important;
+    color: transparent;
+}
+
+.navbar-toggler span:nth-child(1) {
+    margin-top: 0.1em;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translate(15%, -33%) rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translate(15%, 33%) rotate(-45deg);
+}
+
+.navbar-toggler span:nth-child(1) {
+    transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(2) {
+    opacity: 1;
+}
+
+.navbar-toggler span:nth-child(3) {
+    transform: translate(0%, 0%) rotate(0deg);
+}
+
+    .navbar {
+        background: rgb(22, 9, 109);
+        background: linear-gradient(46deg, rgba(22, 9, 109, 1) 0%, rgba(22, 9, 109, 1) 60%, rgba(43, 14, 159, 1) 60.5%, rgba(47, 21, 171, 1) 85%, rgba(28, 11, 140, 1) 100%);
+    }
+
+
+
+/* Theme Custom Button */
+
+.custom-button {
+    padding: 3px 27px;
+    background: #493dc8;
+    border-radius: 2em;
+    font-weight: 700;
+    margin-left: 0 !important;
+}
+
+.custom-button a {
+    color: #50b1b5 !important;
+}
+
+.theme-btn {
+    background: #50b1b5;
+    font-size: 15px;
+    border-radius: 1.5em;
+    padding: 10px 35px;
+    border: 0;
+
+    font-weight: 500;
+}
+
+.theme-btn a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.theme-btn-opposite {
+    background: #ebebeb;
+    font-size: 15px;
+    border-radius: 1.5em;
+    padding: 10px 35px;
+    border: 0;
+    font-weight: 500;
+}
+
+.theme-btn-opposite a {
+    color: #50b1b5 !important;
+    text-decoration: none;
+}
+
+
+/* Navbar Dropdown Styling */
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    margin-top: 5px;
+}
+
+.dropdown-menu {
+    background: white;
+    margin-left: 20px;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    color: #50b1b5;
+    background-color: rgba(22, 9, 110, 1);
+}
+
+/* Collection Page Styling */
+
+.collection-page {
+    background: url(/public/collection-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.collection-content {
+    background-color: white;
+}
+
+.collection-title {
+    padding: 45px 0px 90px 0;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+}
+
+
+.collection-content .artist-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.collection-content .artist-img {
+    width: 150px;
+    margin-top: -75px;
+    border: 1px solid white;
+}
+
+.collection-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.collection-details .row .col {
+    border-left: 1px solid #ccc;
+}
+
+.collection-details .row .col:first-child {
+    border-left: 1px solid transparent;
+}
+
+.collection-details .row h5 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.collection-details .row p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* Navbar Styling */
+
+.nav-tabs .nav-item .nav-link,
+.nav-tabs .nav-link {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #50b1b5;
+}
+
+.artist-data .tab-content {
+    border-top: 1px solid #f4f4f4;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #50b1b5;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    margin-left: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    font-weight: 500;
+    color: #50b1b5;
+}
+
+.readmore-btn {
+    font-weight: 500;
+}
+
+/* Items Design */
+
+.product-box {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #e7e7e7;
+}
+
+.product-box p {
+    font-size: 13px;
+}
+
+.prod-title {
+    font-size: 17px;
+}
+
+.product-box .prod-img {
+    border-radius: 10px !important;
+}
+
+img.prod-blur-img {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.product-box .prod-content {
+    margin-top: 10px;
+}
+
+.nomore-collection {
+    margin: 80px 0;
+}
+
+.nomore-collection h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #5154a1;
+    padding: 35px 25px;
+    color: white;
+}
+
+.footer .company-desc {
+    padding-right: 20px;
+}
+
+
+.footer h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: rgb(240, 240, 240);
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+
+.footer ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer .footer-logo img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .dropdown-menu {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+
+    .dropdown-menu {
+        margin-left: 0;
+    }
+
+    .prod-title {
+        font-size: 14px;
+    }
+
+    .prod-fprice {
+        font-size: 14px;
+    }
+
+    .prod-artist {
+        font-size: 10px;
+
+    }
+
+    .product-box p {
+
+        font-size: 10px;
+    }
+}
+.btn{
+    background: #50b1b5;
+    font-size: 15px;
+    border-radius: 1.5em;
+    padding: 10px 35px;
+    border: 0;
+    
+    font-weight: 500;
+}
+.btn:hover{
+    background: #31a4a8;
+}
