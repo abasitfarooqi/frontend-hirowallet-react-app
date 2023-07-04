@@ -25,6 +25,7 @@ const MintNFT = () => {
                         <div className="text-center m-2">
                             <button type="submit" className="btn btn-dark theme-btn">Mint NFT</button>
                         </div>
+                        
                     </form>
                 </div>
             </div>
